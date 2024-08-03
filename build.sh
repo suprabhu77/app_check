@@ -6,8 +6,8 @@ pip3 install -r requirements.txt
 
 # Run Django collectstatic to gather static files
 echo "Collecting static files..."
-python manage.py collectstatic --noinput
+python3.9 manage.py collectstatic --noinput
 
 # Run migrations
 echo "Running migrations..."
-python manage.py migrate
+python3.9 manage.py migrate
